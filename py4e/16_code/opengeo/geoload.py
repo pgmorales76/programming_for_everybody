@@ -12,7 +12,7 @@ serviceurl = 'https://py4e-data.dr-chuck.net/opengeo?'
 # Additional detail for urllib
 # http.client.HTTPConnection.debuglevel = 1
 
-conn = sqlite3.connect('opengeo/opengeo.sqlite')
+conn = sqlite3.connect('opengeo.sqlite')
 cur = conn.cursor()
 
 cur.execute('''
@@ -23,7 +23,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-fh = open("opengeo/where.data")
+fh = open("where.data")
 count = 0
 nofound = 0
 for line in fh:

@@ -35,6 +35,7 @@ myData = [
 [47.72360745,13.086718915696402, 'Fachhochschule Salzburg'],
 [45.246192449999995,19.851395393729504, 'Faculty of Technical Sciences'],
 [40.75278,-73.42778, 'Farmingdale State University of New York'],
+[40.830509250000006,-74.11227737257911, 'Felician University'],
 [26.119403650000002,-80.14169191096471, 'Florida Atlantic University'],
 [43.2125814,-71.4947929, 'Franklin Pierce College'],
 [26.153410700000002,91.6657647108439, 'Gauhati University'],
@@ -96,6 +97,5 @@ myData = [
 [31.39571075,75.5357675438753, 'Dr. B. R. Ambedkar National Institute of Technology, Jalandhar'],
 [25.016817500000002,121.53845709079619, 'National Taiwan University'],
 [-12.02037945,-77.04816939032196, 'National University of Engineering'],
-[41.774365450000005,-88.14274924248255, 'North Central College'],
-[42.33510525,-71.08925787470238, 'Northeastern University']
+[41.774365450000005,-88.14274924248255, 'North Central College']
 ];
