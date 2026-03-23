@@ -31,7 +31,7 @@ if row is not None:
 else :
     starturl = input('Enter web url or enter: ')
     # For Coursera assignment, run this url: http://python-data.dr-chuck.net/
-    if ( len(starturl) < 1 ) : starturl = 'http://www.dr-chuck.com/'
+    if ( len(starturl) < 1 ) : starturl = 'http://python-data.dr-chuck.net/'
     if ( starturl.endswith('/') ) : starturl = starturl[:-1]
     web = starturl
     if ( starturl.endswith('.htm') or starturl.endswith('.html') ) :
